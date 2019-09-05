@@ -12,10 +12,21 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'interview',
+      repo: 'https://github.com/xuesongzh/android_interview',
+      maxLevel: 3,
+      mergeNavbar: true,
+      search: {
+            paths: 'auto',
+            placeholder: '🔍 Type to search ',
+            noData: '😞 No Results! ',
+            depth: 6
+        },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-</body>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-c.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
 </html>
